@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/User/Documents/mlflow/model_tracking/338221237043664448/4a10ab71a174492a8b813bde86a417d9/artifacts
+end_time: 1773046424495
+entry_point_name: ''
+experiment_id: '338221237043664448'
+lifecycle_stage: active
+run_id: 4a10ab71a174492a8b813bde86a417d9
+run_name: RandomForest_Run_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773046414078
+status: 3
+tags: []
+user_id: User

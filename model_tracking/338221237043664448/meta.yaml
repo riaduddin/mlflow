@@ -1,0 +1,7 @@
+artifact_location: file:C:/Users/User/Documents/mlflow/model_tracking/338221237043664448
+creation_time: 1773046413818
+experiment_id: '338221237043664448'
+last_update_time: 1773046413818
+lifecycle_stage: active
+name: RandomForest_Experiment
+workspace: default

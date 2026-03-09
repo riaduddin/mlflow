@@ -26,8 +26,9 @@ if __name__ == "__main__":
     X_test, y_test = test.drop('label', axis=1), test['label']
     
     mlflow.sklearn.autolog()
+    mlflow.set_tracking_uri("./model_tracking")
     my_exp= mlflow.set_experiment("RandomForest_Experiment")
-    with mlflow.start_run(run_name="RandomForest_Run"):
+    with mlflow.start_run(experiment_id=my_exp.experiment_id, run_name="RandomForest_Run_2"):
 
         model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth)
         model.fit(X_train, y_train)
